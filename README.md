@@ -7,4 +7,5 @@ The first task we propose is NER, the task of identifying proper nouns within a 
 STEP 1: Clone this repository
 
 STEP 2: Run our script
+
 ```python3 eval.py <output_of_your_system.txt> shDataset.txt <name_output_file_alignment.txt>```
