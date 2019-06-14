@@ -4,8 +4,10 @@ The first task we propose is NER, the task of identifying proper nouns within a 
 
 ## Run Evaluation
 
+ATENÇÃO: O arquivo de saída de seu sistema deve conter um token especial para divisão dos dois datasets "StartSecondHAREM", tudo que há abaixo desse token pertence ao segundo HAREM e portanto apenas a categoria *Value*, ou seja, todas as outras categorias devem ser mapeadas para "O". Acima do token "StartSecondHAREM" a categoria *Value* deve ser mapeada para "O".
+
 STEP 1: Clone this repository
 
-STEP 2: Run our script
+STEP 3: Run our script
 
 ```python3 eval.py <output_of_your_system.txt> shDataset.txt <name_output_file_alignment.txt>```
