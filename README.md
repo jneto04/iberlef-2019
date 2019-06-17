@@ -12,7 +12,7 @@ STEP 1: Faça as mudanças já orientadas acima. Você pode usar um editor como 
 
 STEP 2: Clone this repository;
 
-STEP 3: Run our script;
+STEP 3: In TASK1 folder run our script:
 
 ```python3 v1EvaluationAlgorithm.py <output_of_your_system.txt> shDataset.txt <name_output_file_alignment.txt>```
 
@@ -20,6 +20,18 @@ STEP 3: Run our script;
 
 STEP 1: Clone this repository;
 
-STEP 2: Run our script;
+STEP 2: In TASK1 folder run our script:
 
 ```python3 v2EvaluationAlgorithm.py <output_of_your_system.txt> shDataset.txt <name_output_file_alignment.txt>```
+
+# Task 2 - Relation Extraction for Named Entities
+
+We propose a RE task that involves the automatic extraction of any relation descriptor expressing any type of relation between a pair of Named Entities of the Person, Place and Organization categories in Portuguese language texts.
+
+## Run Evaluation
+
+STEP 1: Clone this repository;
+
+STEP 2: In TASK2 folder, run our script:
+
+```python3 ```
