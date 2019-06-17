@@ -35,3 +35,16 @@ STEP 1: Clone this repository;
 STEP 2: In TASK2 folder, run our script:
 
 ```python3 ```
+
+# Citing our Paper
+```
+@article{ nerreiberlef2019,
+author= {Sandra Collovini, Joaquim Santos, Bernardo Consoli, Juliano Terra, Renata Vieira,  Paulo Quaresma, Marlo Souza, Daniela Barreiro Claro, Rafael Glauber and Clarissa Castell\~a Xavier},
+pages= {},
+volume= {},
+title= {Portuguese Named Entity Recognition and Relation Extraction Tasks at IberLEF 2019},
+booktitle= {Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2019)},
+publisher= {CEUR-WS.org}, 
+series= {CEUR Workshop Proceedings}, 
+year= {2019} }
+```
