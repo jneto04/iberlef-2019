@@ -4,10 +4,22 @@ The first task we propose is NER, the task of identifying proper nouns within a 
 
 ## Run Evaluation
 
-ATENÇÃO: O arquivo de saída de seu sistema deve conter um token especial para divisão dos dois datasets "StartSecondHAREM", tudo que há abaixo desse token pertence ao segundo HAREM e portanto apenas a categoria *Value*, ou seja, todas as outras categorias devem ser mapeadas para "O". Acima do token "StartSecondHAREM" a categoria *Value* deve ser mapeada para "O".
+ATENÇÃO: O arquivo de saída de seu sistema deve conter um token especial para divisão dos dois datasets "StartSecondHAREM", tudo que há abaixo desse token pertence ao segundo HAREM e portanto apenas a categoria *Value*, ou seja, todas as outras categorias devem ser mapeadas para "O". Acima do token "StartSecondHAREM" a categoria *Value* deve ser mapeada para "O". Nós fizemos manualmente estas mudanças para cada participante e usamos o algoritmo *v1EvaluationAlgorithm*. Entretanto, também disponibilizamos um script *v2EvaluationAlgorithm* que faz automaticamente as alterações necessárias.
 
-STEP 1: Clone this repository
+Caso faça manualmente as alterações:
 
-STEP 3: Run our script
+STEP 1: Faça as mudanças já orientadas acima. Você pode usar um editor como o Sublime Text 3;
 
-```python3 eval.py <output_of_your_system.txt> shDataset.txt <name_output_file_alignment.txt>```
+STEP 2: Clone this repository;
+
+STEP 3: Run our script;
+
+```python3 v1EvaluationAlgorithm.py <output_of_your_system.txt> shDataset.txt <name_output_file_alignment.txt>```
+
+Para as mudanças automáticas:
+
+STEP 1: Clone this repository;
+
+STEP 2: Run our script;
+
+```python3 v2EvaluationAlgorithm.py <output_of_your_system.txt> shDataset.txt <name_output_file_alignment.txt>```
