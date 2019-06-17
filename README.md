@@ -32,9 +32,9 @@ We propose a RE task that involves the automatic extraction of any relation desc
 
 STEP 1: Clone this repository;
 
-STEP 2: In TASK2 folder, run our script:
+STEP 2: In TASK2 folder, run our script's help function for further instructions in how to use it:
 
-```python3 ```
+```python avaliaIberLEFtask2.py --help```
 
 # Citing our Paper
 ```
