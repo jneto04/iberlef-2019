@@ -36,6 +36,18 @@ STEP 2: In TASK2 folder, run our script's help function for further instructions
 
 ```python avaliaIberLEFtask2.py --help```
 
+# Task 3 - General Open Relation Extraction
+
+The task of general open relation extraction aims to identify structured representations of the information contained in unstructured sources, such as textual documents. This task faces many challenges, considering the generality of the problem, as well as the required linguistic knowledge to automatically perform such a task.
+
+## Run Evaluation
+
+STEP 1: Clone this repository;
+
+STEP 2: In TASK3 folder, run our script's help function for further instructions in how to use it:
+
+```python avaliaIberLEFtask3.py --help```
+
 # Citing our Paper
 ```
 @article{ nerreiberlef2019,
