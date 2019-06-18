@@ -4,7 +4,7 @@ The first task we propose is NER, the task of identifying proper nouns within a 
 
 ## Run Evaluation
 
-ATTENTION: The output of your system must contain a special token in order to divide both datasets "StartSecondHAREM", everything below this token belongs to the second HAREM and therefore only the category *Value*, in other words, all the other categories must be mapped to "O". Above the "StartSecondHAREM" token the category *Value* must be mapped to "O". We manually made this changes for each participant and used the script *v1EvaluationAlgorithm*. However, we also made available the script *v2EvaluationAlgorithm* that automatically do this changes.
+ATTENTION: The output of your system must contain a special token in order to divide both datasets "StartSecondHAREM", everything below this token belongs to the second HAREM and therefore only the category *Value*, in other words, all the other categories must be mapped to "O". Above the "StartSecondHAREM" token the category *Value* must be mapped to "O". We manually made this changes for each participant and used the script *v1EvaluationAlgorithm*. However, we also made available the script *v2EvaluationAlgorithm* that automatically do these changes.
 
 **In case you manually change your output:**
 
