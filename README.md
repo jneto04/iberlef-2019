@@ -50,13 +50,23 @@ STEP 2: In TASK3 folder, run our script's help function for further instructions
 
 # Citing our Paper
 ```
-@article{ nerreiberlef2019,
-author= {Sandra Collovini, Joaquim Santos, Bernardo Consoli, Juliano Terra, Renata Vieira,  Paulo Quaresma, Marlo Souza, Daniela Barreiro Claro, Rafael Glauber and Clarissa Castell\~a Xavier},
-pages= {},
-volume= {},
-title= {Portuguese Named Entity Recognition and Relation Extraction Tasks at IberLEF 2019},
-booktitle= {Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2019)},
-publisher= {CEUR-WS.org}, 
-series= {CEUR Workshop Proceedings}, 
-year= {2019} }
+@inproceedings{nerreiberlef2019,
+  author    = {Sandra Collovini and
+               Joaquim Francisco Santos Neto and
+               Bernardo Scapini Consoli and
+               Juliano Terra and
+               Renata Vieira and
+               Paulo Quaresma and
+               Marlo Souza and
+               Daniela Barreiro Claro and
+               Rafael Glauber},
+  title     = {IberLEF 2019 Portuguese Named Entity Recognition and Relation Extraction
+               Tasks},
+  booktitle = {Proceedings of the Iberian Languages Evaluation Forum co-located with
+               35th Conference of the Spanish Society for Natural Language Processing,
+               IberLEF@SEPLN 2019, Bilbao, Spain, September 24th, 2019.},
+  pages     = {390--410},
+  year      = {2019},
+  url       = {http://ceur-ws.org/Vol-2421/NER\_Portuguese\_overview.pdf}
+}
 ```
